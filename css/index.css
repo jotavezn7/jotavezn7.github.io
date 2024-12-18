@@ -7,11 +7,11 @@ header{
     padding: 10px 20px;
 }
 
-nav{
+#nav-header{
     text-align: right;
 }
 
-a{
+.caracters{
     display: inline-flex;
     align-items: center;
     color: #FFFFFF;
@@ -22,7 +22,7 @@ a{
     margin-right: 30px;
 }
 
-a:before {
+.caracters:before {
     content: "";
     background-color: #E21C11;
     width: 10px;
@@ -30,23 +30,9 @@ a:before {
     margin-right: 10px;
 }
 
-#button {
-    display: inline-block;
-    background-color: #E21C11;
-    padding: 18px 20px;
-    box-shadow: 5px 5px 0  black;
-    text-align: center;
-    margin-right: 0px;
-    transition: transform 100ms linear;
-}
-
-#button:hover {
-    transform: scale(1.08);
-    background-color: black;
-    color: #E21C11;
-  }
-
 .title-box{
+    display: inline-block;
+    text-align: center;
     background-color: #3A4042;
     padding: 0px 0px;
     width: 627px;
@@ -57,20 +43,19 @@ a:before {
 }
 
 .title{
-    text-align: center;
+    
     color: #E21C11;
     font-size: 40px;
     font-family: "Press Start 2P";
     font-weight: 400;
     text-shadow:4px 4px 0 #000;
     padding-top: 49px;
-    padding-bottom: 28px;
+    margin-bottom: 28px;
 }
 
 .subtitle{
-    text-align: center;
+    
     color:#FFFFFF;
-
     font-size: 30px;
     font-family: "Press Start 2P";
     text-shadow:4px 4px 0 #000;
