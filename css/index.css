@@ -45,3 +45,35 @@ a:before {
     background-color: black;
     color: #E21C11;
   }
+
+.title-box{
+    background-color: #3A4042;
+    padding: 0px 0px;
+    width: 627px;
+    height: 184px;
+    margin-top: 109px;
+    margin-left: 91px;
+    box-shadow: 10px 10px 0 #000;
+}
+
+.title{
+    text-align: center;
+    color: #E21C11;
+    font-size: 40px;
+    font-family: "Press Start 2P";
+    font-weight: 400;
+    text-shadow:4px 4px 0 #000;
+    padding-top: 49px;
+    padding-bottom: 28px;
+}
+
+.subtitle{
+    text-align: center;
+    color:#FFFFFF;
+
+    font-size: 30px;
+    font-family: "Press Start 2P";
+    text-shadow:4px 4px 0 #000;
+}
+
+
