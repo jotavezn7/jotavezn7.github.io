@@ -10,7 +10,7 @@
     box-shadow: 10px 10px 0 #000;
 }
 
-.title{
+.main-title{
     
     color: #E21C11;
     font-size: 40px;
@@ -21,7 +21,7 @@
     margin-bottom: 28px;
 }
 
-.subtitle{
+.main-subtitle{
     
     color:#FFFFFF;
     font-size: 30px;
