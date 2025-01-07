@@ -1,6 +1,6 @@
 
 
-.caracters{
+.caracters-header{
     display: inline-flex;
     align-items: center;
     color: #FFFFFF;
@@ -11,7 +11,7 @@
     margin-right: 30px;
 }
 
-.caracters:before {
+.caracters-header:before {
     content: "";
     background-color: #E21C11;
     width: 10px;
