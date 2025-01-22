@@ -1,0 +1,10 @@
+.main-carousel{
+    position: relative;
+    padding-right: 120px;
+    padding-left: 30px;
+}
+
+.main-carousel .buttom-arrow{
+    position: absolute;
+    bottom: 140px;
+}

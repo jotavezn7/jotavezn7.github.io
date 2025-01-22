@@ -1,0 +1,25 @@
+.logo-job{
+    align-items: center;
+   display: inline-flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.logo-job::before{
+    content: '';
+    bottom: 15px;
+    box-sizing: border-box;
+    height: 0px;
+    width: 40px;
+    border: 2.5px dashed #E21C11;
+    transform: rotate(90deg) translateX(142%);
+    bottom: 140px;
+   
+}
+
+.logo-job .title{
+    font-size: 25px;
+    font-family: "Press Start 2P";
+    color: #F25A70;
+    margin-bottom: 50px;
+}

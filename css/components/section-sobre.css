@@ -1,4 +1,35 @@
 .section-sobre{
+    position: relative;
     background-color: #3A4042;
     border-bottom: 10px solid #E21C11;
+    overflow: hidden;
 }
+
+
+
+.section-sobre .main-title::after{
+    content: '';
+    position: absolute;
+    display: block;
+    left: 50px;
+    right: 0;
+    top: 28%;
+    height: 6px;
+    width: calc(100% - 100px);
+    background-color: #E21C11;
+}
+
+.section-sobre .main-title::before{
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 28%;
+    border: 3px dashed #E21C11;
+    width: 100%;
+}
+
+
+
+   
