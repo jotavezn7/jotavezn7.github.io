@@ -9,22 +9,3 @@
     margin-left: 91px;
     box-shadow: 10px 10px 0 #000;
 }
-
-.main-title{
-    
-    color: #E21C11;
-    font-size: 40px;
-    font-family: "Press Start 2P";
-    font-weight: 400;
-    text-shadow:4px 4px 0 #000;
-    padding-top: 49px;
-    margin-bottom: 28px;
-}
-
-.main-subtitle{
-    
-    color:#FFFFFF;
-    font-size: 30px;
-    font-family: "Press Start 2P";
-    text-shadow:4px 4px 0 #000;
-}

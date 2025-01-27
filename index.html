@@ -13,11 +13,12 @@
 		<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&display=swap" rel="stylesheet">
 
 		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/components/main-title.css">
 		<link rel="stylesheet" href="css/caracters-header.css">
 		<link rel="stylesheet" href="css/components/header.css">
 		<link rel="stylesheet" href="css/components/banner-title.css">
 		<link rel="stylesheet" href="css/components/button-header.css">
-		<link rel="stylesheet" href="css/components/mid-buttons.css">
+		<link rel="stylesheet" href="css/components/main-button.css">
 		<link rel="stylesheet" href="css/components/title-box.css">
 		<link rel="stylesheet" href="css/components/banner-skills.css">
 		<link rel="stylesheet" href="css/components/skills-tec.css">
@@ -33,7 +34,8 @@
 		<link rel="stylesheet" href="css/components/logo-jobs.css">
 		<link rel="stylesheet" href="css/components/main-carousel.css">
 		<link rel="stylesheet" href="css/components/main-footer.css">
-		
+		<link rel="stylesheet" href="css/components/main-form.css">
+		<link rel="stylesheet" href="css/components/wrapper-form.css">
 	</head>
 
 
@@ -58,8 +60,8 @@
 			</div>
 
 			<nav>
-				<a class="mid-button" href="">Download CV</a>
-				<a class="mid-button2" href="">Contatos</a>
+				<a class="main-button" href="">Download CV</a>
+				<a class="main-button -second" href="">Contatos</a>
 			</nav>
 		</section>
 
@@ -129,7 +131,7 @@
 
 
 		<section class="cards-projects">
-			<h2 class="main-title -second">Projetos</h2>
+			<h2 class="main-title -third">Projetos</h2>
 
 			<div class="wrapper-cards">
 				<img class="cards-icon" src="assets/img/img-projetos/cc-Logo.png" alt="Logo pixelada do meu projeto de Cadastro de Clientes">			
@@ -140,7 +142,7 @@
 
 
 		<section class="section-sobre">
-			<h2 class="main-title -second">Sobre</h2>
+			<h2 class="main-title -fourth">Sobre</h2>
 
 			<section class="main-carousel">
 			<button class="button-arrow -left"><span class="content">Avançar</span></button>
@@ -184,6 +186,26 @@
 	
 	<p class="my-text">Hoje, Desenvolvedor de Software, João, já atuou em diversas areás, e decidiu estudar e se desenvolver na areá da Programação, esta sempre atras de novos conhecimentos e se diverte aprendendo e programando.</p>	
 	</section>
+
+	<form class="main-form">
+
+		<h2 class="main-title -fifth">Contatos</h2>
+
+		<div class="wrapper-form">
+		<label class="itens-form" for="usarNome">Nome</label> 
+		<input class="input-form" type="text" id="userNome" name="Name" placeholder="Digite seu nome" required/>
+
+		<label class="itens-form" for="userEmail">Email</label> 
+		<input class="input-form" type="email" id="useEmail" name="Email" placeholder="Digite seu email" required/>
+
+		<label class="itens-form" for="userMsg">Mensagem</label>
+		<textarea class="text-form" id="userMsg" name="Mensagem"></textarea>
+		</div>	
+
+
+		<button class="main-button -third" type="submit">Enviar</button>
+	
+	</form>
 
 	<footer class="main-footer">
 		<a class="action" href="https://www.instagram.com/jotavez7/" target="_blank">

@@ -1,0 +1,36 @@
+.main-button{
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Fira Code";
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #E21C11;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0  black;
+    text-align: center;
+    margin-left: 181px;
+    margin-top: 45px;
+    transition: transform 100ms linear;
+  }
+
+  .main-button:hover {
+    transform: scale(1.08);
+    background-color: black;
+    color: #E21C11;
+  }
+
+  .main-button.-second{
+    width: 170px;
+    height: 60px;
+  }
+
+  .main-button.-third{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 0px;
+    width: 1360px;
+    margin-bottom:60px;
+    margin-left: 245px;
+  }
